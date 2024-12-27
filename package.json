@@ -12,13 +12,17 @@
     "@elysiajs/jwt": "^1.1.1",
     "@elysiajs/swagger": "^1.1.6",
     "@prisma/client": "6.0.1",
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.4.0",
     "@types/bcrypt": "^5.0.2",
     "bcrypt": "^5.1.1",
-    "elysia": "latest"
+    "elysia": "latest",
+    "stripe": "^17.5.0"
   },
   "devDependencies": {
     "bun-types": "latest",
-    "prisma": "^6.0.1"
+    "prisma": "^6.0.1",
+    "vite": "^6.0.6"
   },
   "module": "src/index.js"
 }
