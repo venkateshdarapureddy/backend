@@ -16,7 +16,7 @@ export const webhook = new Elysia({}).post(
         // @ts-ignore
         body,
         sig,
-        "whsec_d542dbfdb39b6c167a2f9c5ecab4d83b911b50a22c96ba2f4bfbf92833b57453"
+        "whsec_2b5549c1984b683e2abc9abe2681818a8a65fd5c8f48ceeec7ee236896a75481"
       );
     } catch (err) {
       return error(400, "Bad Request");
